@@ -11,6 +11,10 @@ margin-bottom: 1px;
   background-size: cover;
   background-position: center;
 }
+#breakfast-image{
+background-image: url("/home/justus/Documents/secondIP/assets/foodtop/breakfast.jpg");
+
+}
 
 
 
