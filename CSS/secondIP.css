@@ -19,7 +19,11 @@ background-image: url("/home/justus/Documents/secondIP/assets/foodtop/breakfast.
 background-image: url("/home/justus/Documents/secondIP/assets/foodtop/lunch.jpg");
 
 }
+#dinner-image{
+background-image: url("/home/justus/Documents/secondIP/assets/foodtop/dinner.jpg");
 
+
+}
 
 .container-fluid{
 
