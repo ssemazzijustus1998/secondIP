@@ -1,7 +1,6 @@
 .container-fluid{
 text-align:center;
 
-margin-bottom: 1px;
 }
 #background{
 
@@ -28,7 +27,31 @@ background-color: #F15A29;
 
 }
 
+#overal{
+
+  height: 200px
+}
+
+#row1{
+height: 200px;
+
+}
+#pic1{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 3px;
+padding-right: 5px;
+
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+float:left;
+width: 520px;
+;
+}
+
 .container-fluid{
+  background-size: 100px 80px;
+    background-repeat: no-repeat;
+}
 
 
 
