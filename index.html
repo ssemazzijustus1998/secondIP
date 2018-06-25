@@ -5,8 +5,10 @@
     <link href="CSS/secondIP.css" rel="stylesheet" type="text/css">
     <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+
     <title>anitas kitchen</title>
   </head>
+
   <body>
     <!-- // added a container to hold my first information -->
       <div class ="container-fluid">
@@ -20,15 +22,17 @@
       <!-- // this is where i started putting rows and columns on the info below* -->
       <div class="container-fluid">
         <div class ="row" id="overal">
-            <div class="col-md-3" >
-                <div class ="row">
+            <div class="col-md-3"  >
+                <div class ="row" id="col1">
                   <p><em>Happy hour</em></p>
                 </div>
-                <div class ="row" id="happy-hour">
-                  <p><em>Happy time</em></p>
+                <div class ="row" id="happy-hour" >
+                  <div class="col2">
+                    <p><em>Happy time</em></p>
+                  </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" >
               <p id="breakfast-image"><em>breakfast</em></p>
             </div>
             <div class="col-md-3">
@@ -40,7 +44,8 @@
         </div>
       </div>
 <!-- // third continer to work on the information -->
-    <div class= "container" >
+    <div class= "container-fluid" >
+      <div class="row">
         <div class="container"id="pic1">
           <div class="col-md-6">
             <img src ="assets/fastFood1.jpg">
@@ -53,12 +58,15 @@
               <p><strong>Youll love our delicious fast food</strong></p>
               <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 <div class="container" id="button1">
-                  <button type="button">View gallery </button>
+                  <div class="buttonmoja">
+                    <button type="button">View gallery </button>
+                  </div>
                 </div>
           </div>
         </div>
+      </div>
     </div>
-    <div class= "container" id="next2">
+    <div class= "container-fluid" id="next2">
       <div class="col-md-6">
         <p><strong>DRINS</strong></p>
         <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -68,35 +76,29 @@
       </div>
       <div class="container">
         <div class="container" id="pic2">
-          <div class="col-md-6" >
-            <div class="container"id="align1">
-              <img src ="assets/drink1.jpg">
-            </div>
-            <div class="container"id="align2">
-              <img src ="assets/drink2.jpg">
-            </div>
+            <img src ="assets/drink1.jpg">
+            <img src ="assets/drink2.jpg">
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class= "container-fluid" id="just">
-        <div class="row">
-            <ul class="nav nav-tabs">
-              <li class="active"><a href="#">fastfood</a></li>
-              <li><a href="#">Drinks</a></li>
-              <li><a href="#">Chicken</a></li>
-              <li><a href="#">Rice</a></li>
-            </ul>
-          </div>
-          <div class="row">
-            <img src ="assets/fastfood/chickenBurger.jpg">
-            <img src ="assets/fastfood/beefBurger.jpg">
-            <img src ="assets/fastfood/chickenPizza.jpg">
-
+      <div class= "container" id="background2" >
+          <div class="container"id="blue">
+            <div class="row">
+              <ul class="nav nav-tabs" id="tabs">
+                <li class="active"><a href="#">fastfood</a></li>
+                <li><a href="#">Drinks</a></li>
+                <li><a href="#">Chicken</a></li>
+                <li><a href="#">Rice</a></li>
+              </ul>
+            </div>
+            <div class="row" id="pics">
+              <img src ="assets/fastfood/chickenBurger.jpg">
+              <img src ="assets/fastfood/beefBurger.jpg">
+              <img src ="assets/fastfood/chickenPizza.jpg">
+            </div>
           </div>
       </div>
-      <div class= "container-fluid">
+      <div class= "container-fluid" id="word1">
+        <div class="container" id="word2">
           <div class="row">
             <div class="col-md-6">
             <p><strong> Our Happy Customers</strong></p>
@@ -111,13 +113,18 @@
               <p>we are menu alittle team of 7 members ui lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the</p>
             </div>
           </div>
+        </div>
       </div>
-      <div class="container-fluid" >
+      <div class="container" id="second1" >
         <p> Get our daily food items deliveredd to your email</p>
-         <button type="button" name="subscribe"></button>
-          <button type="button" name="subscribe"></button>
+          <div class="form1">
+            <form name="login">
+              <input type="text"placeholder="your email">
+              <button id="button">subsribe</button>
+            </form>
+          </div>
       </div>
-      <div class="container-fluid">
+      <div class="container" id="second2">
         <img src ="assets/footerlogos/logo_white.png">
           <p>MENU</p>
             <p>Thats what we are</p>
@@ -128,6 +135,15 @@
 
             <p>2018 menu restaurant</p>
       </div>
+
+
+
+
+
+
+      <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+      <scripts src ="js/secondIP.js">
+
 
 
   </body>
